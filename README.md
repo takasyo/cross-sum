@@ -13,4 +13,5 @@ GitHub Pagesでそのまま開けます: https://takasyo.github.io/cross-sum/
 - `index.html` — マークアップ
 - `assets/style.css` — スタイル
 - `assets/app.ts` — 本体ロジック（TypeScript）
-- `assets/app.js` — app.tsのコンパイル済みJavaScript（ページが読み込むのはこちら）
+
+`assets/app.js` はビルド生成物なのでリポジトリには含めていません。pushするとGitHub ActionsがTypeScriptをコンパイルしてGitHub Pagesへデプロイします。手元でビルドする場合は `npm ci` のあと `npm run build` です。
