@@ -6,4 +6,11 @@
 
 GitHub Pagesでそのまま開けます: https://takasyo.github.io/cross-sum/
 
-単一のHTMLファイル（index.html）で完結していて、JavaScriptだけで動きます。
+テーマ（システム／ライト／ダーク）と入力値はブラウザのlocalStorageに保存され、次回は前回の状態から始まります。
+
+## ファイル構成
+
+- `index.html` — マークアップ
+- `assets/style.css` — スタイル
+- `assets/app.ts` — 本体ロジック（TypeScript）
+- `assets/app.js` — app.tsのコンパイル済みJavaScript（ページが読み込むのはこちら）
